@@ -20,6 +20,7 @@ export default function Hero(props){
     }
 
     return(
+        <Fade bottom>
         <section className="container pt-4">
             <div className="row align-items-center">
                 <div className="col-auto pr-5" style={{width: 530}}>
@@ -60,5 +61,6 @@ export default function Hero(props){
                 </div>
             </div>
         </section>
+        </Fade>
     )
 }
